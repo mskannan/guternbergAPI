@@ -1,6 +1,15 @@
 # guternbergAPI
 A django project with Rest API to list the table datas in JSON format
 
+--------------------------------------------
+
+Project URLS
+
+API URL: http://127.0.0.1:8000
+
+Document URL: http://127.0.0.1:8000/docs/
+
+--------------------------------------------
 
 Django API with PostgreSQL - Setup Guide
 
@@ -14,8 +23,8 @@ Ensure you have the following installed:
 --------------------------------------------
 
 1️⃣ Clone the Repository
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone https://github.com/mskannan/guternbergAPI
+cd  guternberg
 
 --------------------------------------------
 
