@@ -13,12 +13,12 @@ from itertools import zip_longest
     parameters=[
         OpenApiParameter(name="limit", description="Number of books per page", required=False, type=int),
         OpenApiParameter(name="offset", description="Starting index for pagination", required=False, type=int),
-        OpenApiParameter(name="id", description="Search by book IDs", required=False, type=str),
-        OpenApiParameter(name="title", description="Search by book Titles", required=False, type=str),
-        OpenApiParameter(name="topic", description="Search by book Topics", required=False, type=str),
-        OpenApiParameter(name="author", description="Search by book Authors", required=False, type=str),
-        OpenApiParameter(name="mime_type", description="Search by book Mime Type", required=False, type=str),
-        OpenApiParameter(name="languages", description="Search by book Languages", required=False, type=str),
+        OpenApiParameter(name="id", description="Search by book IDs (Eg: 1,2)", required=False, type=str),
+        OpenApiParameter(name="title", description="Search by book Titles (Eg:A House of Pomegranates)", required=False, type=str),
+        OpenApiParameter(name="topic", description="Search by book Topics (Eg: Children)", required=False, type=str),
+        OpenApiParameter(name="author", description="Search by book Authors (Eg:Charles)", required=False, type=str),
+        OpenApiParameter(name="mime_type", description="Search by book Mime Type (Eg:text/html,text/plain)", required=False, type=str),
+        OpenApiParameter(name="languages", description="Search by book Languages (Eg: en,fr,fi)", required=False, type=str),
     ],
     responses={200: "application/json"},
 )
