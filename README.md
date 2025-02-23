@@ -5,6 +5,10 @@ A django project with Rest API to list the table datas in JSON format
 
 Project URLS
 
+Live URL : http://ec2-54-158-54-149.compute-1.amazonaws.com
+
+Document URL: http://ec2-54-158-54-149.compute-1.amazonaws.com/docs/
+
 API URL: http://127.0.0.1:8000
 
 Document URL: http://127.0.0.1:8000/docs/
