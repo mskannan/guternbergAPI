@@ -11,6 +11,7 @@ class Book(models.Model):
 
 class BooksView(models.Model):
     booktitle = models.CharField(max_length=255, primary_key=True)
+    gut_book_id =  models.TextField(null=True, blank=True)
     author_name = models.TextField(null=True, blank=True)
     birth_year = models.TextField(null=True, blank=True)
     death_year = models.TextField(null=True, blank=True)
